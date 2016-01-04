@@ -67,8 +67,9 @@ def length_one(number_in):
 def main(number_in):
   number = int(number_in)
   letter = ''
-  length = len(number_in)
-  if number>701:
+  if number>18277:
+    print "This program works only for numbers between 0 to 18277 (A - ZZZ)"
+  elif number>701:
     print length_three(number)
   elif number>25:
     print length_two(number)
